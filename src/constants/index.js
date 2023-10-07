@@ -1,30 +1,25 @@
 import {
 	mobile,
 	backend,
-	creator,
 	web,
 	javascript,
 	typescript,
 	html,
 	css,
+	sass,
 	reactjs,
 	redux,
 	tailwind,
 	nodejs,
 	mongodb,
 	git,
-	figma,
-	docker,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
+	talent,
+	bleasedTree,
 	carrent,
 	jobit,
 	tripguide,
 	express,
 	angular,
-	graphql,
 	bootstrap,
 } from "../assets";
 
@@ -56,10 +51,6 @@ const services = [
 		title: "Backend Developer",
 		icon: backend,
 	},
-	{
-		title: "Content Creator",
-		icon: creator,
-	},
 ];
 
 const technologies = [
@@ -70,6 +61,10 @@ const technologies = [
 	{
 		name: "CSS 3",
 		icon: css,
+	},
+	{
+		name: "Sass",
+		icon: sass,
 	},
 	{
 		name: "JavaScript",
@@ -108,10 +103,6 @@ const technologies = [
 		icon: express,
 	},
 	{
-		name: "Graph Ql",
-		icon: graphql,
-	},
-	{
 		name: "MongoDB",
 		icon: mongodb,
 	},
@@ -119,95 +110,31 @@ const technologies = [
 		name: "Git",
 		icon: git,
 	},
-	{
-		name: "Figma",
-		icon: figma,
-	},
-	{
-		name: "Docker",
-		icon: docker,
-	},
 ];
 
 const experiences = [
 	{
-		title: "React.js Developer",
-		company_name: "Starbucks",
-		icon: starbucks,
-		iconBg: "#383E56",
-		date: "March 2020 - April 2021",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
-	{
-		title: "React Native Developer",
-		company_name: "Tesla",
-		icon: tesla,
+		title: "Front-end Developer",
+		company_name: "Bleased Tree",
+		icon: bleasedTree,
 		iconBg: "#E6DEDD",
-		date: "Jan 2021 - Feb 2022",
+		date: "Feb 2023 - April 2023",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"worked with a team of front-end developers backend developers and designers team working to volunteering purpose",
+			"my role in this team is to design and develope about page to make an overview of organization and there work",
 		],
 	},
 	{
-		title: "Web Developer",
-		company_name: "Shopify",
-		icon: shopify,
-		iconBg: "#383E56",
-		date: "Jan 2022 - Jan 2023",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
-	{
-		title: "Full stack Developer",
-		company_name: "Meta",
-		icon: meta,
+		title: "Full-Stack Developer",
+		company_name: "Talent Oriented",
+		icon: talent,
 		iconBg: "#E6DEDD",
-		date: "Jan 2023 - Present",
+		date: "Aug 2023 - present",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Developing and maintaining web application using React.js and other related technologies.",
+			"Collaborating with cross-functional teams including designers, product managers, and other developers to devlope Talent Oriented platform",
+			"working as a fullstack devloper and manage a database and develope RESTfull API, and frontend devloper woking in client side using React",
 		],
-	},
-];
-
-const testimonials = [
-	{
-		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-		name: "Sara Lee",
-		designation: "CFO",
-		company: "Acme Co",
-		image: "https://randomuser.me/api/portraits/women/4.jpg",
-	},
-	{
-		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: "Chris Brown",
-		designation: "COO",
-		company: "DEF Corp",
-		image: "https://randomuser.me/api/portraits/men/5.jpg",
-	},
-	{
-		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: "Lisa Wang",
-		designation: "CTO",
-		company: "456 Enterprises",
-		image: "https://randomuser.me/api/portraits/women/6.jpg",
 	},
 ];
 
@@ -277,4 +204,4 @@ const projects = [
 	},
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
