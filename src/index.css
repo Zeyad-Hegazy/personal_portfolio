@@ -65,6 +65,10 @@
 	-webkit-text-fill-color: transparent;
 }
 
+.express-color {
+	color: #b9b9b9;
+}
+
 .green-text-gradient {
 	background: #11998e; /* fallback for old browsers */
 	background: -webkit-linear-gradient(

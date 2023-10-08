@@ -1,5 +1,4 @@
 import {
-	mobile,
 	backend,
 	web,
 	javascript,
@@ -15,9 +14,11 @@ import {
 	git,
 	talent,
 	bleasedTree,
-	carrent,
-	jobit,
-	tripguide,
+	chart,
+	memories,
+	expenses,
+	aziz,
+	pomodoro,
 	express,
 	angular,
 	bootstrap,
@@ -33,6 +34,10 @@ export const navLinks = [
 		title: "Work",
 	},
 	{
+		id: "projects",
+		title: "Projects",
+	},
+	{
 		id: "contact",
 		title: "Contact",
 	},
@@ -40,12 +45,8 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "Web Developer",
+		title: "Frontend Developer",
 		icon: web,
-	},
-	{
-		title: "React Native Developer",
-		icon: mobile,
 	},
 	{
 		title: "Backend Developer",
@@ -140,67 +141,111 @@ const experiences = [
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "Memories",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"Web-based social media platform that allows users to Create memorie posts and interact with it, and see other's memorie",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
+			},
+			{
+				name: "redux",
+				color: "text-fuchsia-500",
 			},
 			{
 				name: "mongodb",
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwind",
-				color: "pink-text-gradient",
+				name: "express",
+				color: "express-color",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: memories,
+		source_code_link: "https://github.com/Zeyad-Hegazy/memories",
+		live_preview_link: "",
 	},
+
 	{
-		name: "Job IT",
+		name: "Admin Dashboard",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"fully functional, customizable dashboard for any kind of businesses and nicely displays information about businesses through beautiful charts",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "restapi",
-				color: "green-text-gradient",
+				name: "tailwendcss",
+				color: "text-blue-300",
 			},
 			{
-				name: "scss",
-				color: "pink-text-gradient",
+				name: "syncfusion",
+				color: "orange-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: chart,
+		source_code_link: "https://github.com/Zeyad-Hegazy/admin_dashboard",
+		live_preview_link: "https://admin-dashboard-woad-six.vercel.app/ecommerce",
 	},
+
 	{
-		name: "Trip Guide",
+		name: "Expenses Tracker",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"Web-based application that allows users to note ther purches and track it during a set amount of time",
 		tags: [
 			{
-				name: "nextjs",
+				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
-				color: "green-text-gradient",
-			},
-			{
 				name: "css",
-				color: "pink-text-gradient",
+				color: "text-blue-300",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: expenses,
+		source_code_link: "https://github.com/Zeyad-Hegazy/Expenses-tracker",
+		live_preview_link: "https://expenses-tracker-flame.vercel.app/",
+	},
+	{
+		name: "Aziz Studio",
+		description:
+			"Landing page for a Saudi creative design agency that allows users to see information about the studio",
+		tags: [
+			{ name: "html", color: "orange-text-gradient" },
+			{
+				name: "css",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "javascript",
+				color: "text-amber-400",
+			},
+		],
+		image: aziz,
+		source_code_link: "https://github.com/Zeyad-Hegazy/Aziz-studio",
+		live_preview_link: "https://aziz-studio.vercel.app/",
+	},
+
+	{
+		name: "Pomodoro",
+		description:
+			"Pomodoro timer for activities for 25 minutes and 5 minutes to take a break and customizable in the main theme color, also set timers on your own",
+		tags: [
+			{ name: "html", color: "orange-text-gradient" },
+			{
+				name: "css",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "javascript",
+				color: "text-amber-400",
+			},
+		],
+		image: pomodoro,
+		source_code_link: "https://github.com/Zeyad-Hegazy/Pomodoro",
+		live_preview_link: "https://pomodoro-nu-lemon.vercel.app/",
 	},
 ];
 

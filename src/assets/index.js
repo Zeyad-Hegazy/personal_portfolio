@@ -1,6 +1,5 @@
 import logo from "./logo.png";
 import backend from "./backend.png";
-import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -24,14 +23,15 @@ import bootstrap from "./tech/bootstrap.png";
 import talent from "./company/talent.png";
 import bleasedTree from "./company/blessed-tree01.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import memories from "./memories.png";
+import chart from "./charts.png";
+import expenses from "./expenses-tracker.png";
+import aziz from "./aziz.png";
+import pomodoro from "./pomodoro.png";
 
 export {
 	logo,
 	backend,
-	mobile,
 	web,
 	github,
 	menu,
@@ -52,7 +52,9 @@ export {
 	bootstrap,
 	talent,
 	bleasedTree,
-	carrent,
-	jobit,
-	tripguide,
+	memories,
+	chart,
+	expenses,
+	aziz,
+	pomodoro,
 };
