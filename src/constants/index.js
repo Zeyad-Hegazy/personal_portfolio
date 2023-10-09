@@ -133,8 +133,8 @@ const experiences = [
 		date: "Aug 2023 - present",
 		points: [
 			"Developing and maintaining web application using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to devlope Talent Oriented platform",
-			"working as a fullstack devloper and manage a database and develope RESTfull API, and frontend devloper woking in client side using React",
+			"Collaborating with cross-functional team including designers, product managers, and other developers to devlope Talent Oriented platform",
+			"working as a fullstack devloper and manage a database and develope RESTfull API, woking in client side using React",
 		],
 	},
 ];
