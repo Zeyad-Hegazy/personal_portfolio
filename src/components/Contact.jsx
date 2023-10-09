@@ -23,6 +23,9 @@ const Contact = () => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 
+		if (!form.name || !form.email || !form.message)
+			return console.log("emptyyyy");
+
 		setLoading(true);
 
 		emailjs

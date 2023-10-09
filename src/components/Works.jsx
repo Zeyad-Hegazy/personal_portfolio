@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react-refresh/only-export-components */
 import { Tilt } from "react-tilt";
-import { github } from "../assets";
+import { github, preview } from "../assets";
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
@@ -14,6 +14,7 @@ const ProjectCard = ({
 	description,
 	image,
 	source_code_link,
+	live_preview_link,
 	tags,
 }) => {
 	return (
@@ -34,12 +35,22 @@ const ProjectCard = ({
 					/>
 					<div className="absolute inset-0 flex justify-end m-3 card-img_hover">
 						<div
+							onClick={() => window.open(live_preview_link, "_blank")}
+							className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mr-2"
+						>
+							<img
+								src={preview}
+								alt="preview demo"
+								className="w-1/2 h-1/2 object-contain"
+							/>
+						</div>
+						<div
 							onClick={() => window.open(source_code_link, "_blank")}
 							className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
 						>
 							<img
 								src={github}
-								alt="github icon"
+								alt="github repo"
 								className="w-1/2 h-1/2 object-contain"
 							/>
 						</div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { navLinks } from "./../constants/index";
-import { logo, menu, close } from "../assets";
+import { menu, close } from "../assets";
 
 import { styles } from "../styles";
 
@@ -14,9 +14,9 @@ const Navbar = () => {
 		>
 			<div className="w-full flex justify-between items-center max-w-7xl mx-auto">
 				<a href="#/" className="flex items-center gap-2">
-					<img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-					<p className="text-white text-[18px] font-bold cursor-pointer ml-[-8px]">
-						eyad Hegazy
+					{/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
+					<p className="text-white text-[18px] font-bold cursor-pointer ">
+						Zeyad Hegazy
 					</p>
 				</a>
 				<ul className="list-none hidden sm:flex flex-row gap-10">

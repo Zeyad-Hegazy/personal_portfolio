@@ -54,7 +54,7 @@ const Hero = () => {
 						>
 							<button
 								type="button"
-								className="w-auto h-auto p-5 rounded-md bg-[#915eff] text-white font-bold sm:text-[40px] text-[20px]"
+								className="w-auto h-auto p-5 rounded-md bg-[#915eff] text-white font-bold sm:text-[25px] text-[20px] mt-[-35px]"
 							>
 								Download CV
 							</button>
