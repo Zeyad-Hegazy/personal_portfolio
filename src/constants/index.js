@@ -164,7 +164,7 @@ const projects = [
 		],
 		image: memories,
 		source_code_link: "https://github.com/Zeyad-Hegazy/memories",
-		live_preview_link: "",
+		live_preview_link: "https://memories-client-5vxr.onrender.com/",
 	},
 
 	{
