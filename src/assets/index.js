@@ -24,6 +24,7 @@ import bootstrap from "./tech/bootstrap.png";
 import talent from "./company/talent.png";
 import bleasedTree from "./company/blessed-tree01.png";
 
+import saltus from "./saltus.png";
 import memories from "./memories.png";
 import chart from "./charts.png";
 import expenses from "./expenses-tracker.png";
@@ -54,6 +55,7 @@ export {
 	bootstrap,
 	talent,
 	bleasedTree,
+	saltus,
 	memories,
 	chart,
 	expenses,

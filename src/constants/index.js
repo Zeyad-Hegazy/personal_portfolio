@@ -15,6 +15,7 @@ import {
 	talent,
 	bleasedTree,
 	chart,
+	saltus,
 	memories,
 	expenses,
 	aziz,
@@ -140,6 +141,25 @@ const experiences = [
 ];
 
 const projects = [
+	{
+		name: "Saltus Integrated",
+		description:
+			"One of the leading companies in the Saudi market in the field of finance and business.",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "tailwendcss",
+				color: "text-blue-300",
+			},
+		],
+		image: saltus,
+		source_code_link: "https://github.com/Zeyad-Hegazy/saltus",
+		live_preview_link: "https://saltusintegrated.com",
+	},
+
 	{
 		name: "Memories",
 		description:
